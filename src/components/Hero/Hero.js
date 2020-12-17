@@ -1,4 +1,3 @@
-/* eslint-disable indent */
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Hero.scss';
@@ -13,8 +12,8 @@ const Hero = props => (
 );
 
 Hero.propTypes = {
-    titleText: PropTypes.node, 
-    image: PropTypes.string,
+  titleText: PropTypes.node, 
+  image: PropTypes.string,
 };
 
 export default Hero;
