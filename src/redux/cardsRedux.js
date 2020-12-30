@@ -29,7 +29,7 @@ export default function reducer(state = [], action = {}) {
       return [...state, action.payload];
     
     case MOVE_CARD: {
-      let statePart = [...state];
+      const statePart = [...state];
       const {id, src, dest} = action.payload;
       const targetCard = statePart.filter(card => card.id == id)[0];
       const targetColumnCards = statePart.filter(card => card.columnId == dest.columnId).sort((a, b) => a.index - b.index);
