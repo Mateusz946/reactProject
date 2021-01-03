@@ -12,6 +12,8 @@ export const settings = {
   },
   defaultListDescription: '<p>I can do all the things!!!</p>',
   defaultColumnIcon: 'list-alt',
+  nameIcon: 'dog',
+  homePage: 'Home',
 };
 
 export const pageContents = {
@@ -146,6 +148,20 @@ const cards = [
     index: 1,
   },
 ];
+
+export const info = {
+  title: 'Info Page',
+  subtitle: 'Info',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  image: 'https://i.postimg.cc/90jWsMSN/forest-5847268-1920.jpg',
+};
+
+export const faq = {
+  title: 'FAQ Page',
+  subtitle: 'FAQ',
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+  image: 'https://i.postimg.cc/y8nk9F56/christmas-2869817-1280.jpg',
+};
 
 const initialStoreData = {
   app: {...pageContents},
