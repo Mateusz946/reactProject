@@ -26,7 +26,7 @@ class Creator extends React.Component {
     });
   }
 
-  handleOK = () => {
+  handleSearchButtonClick = () => {
     if(this.state.value != ''){
       this.props.action(this.state.value);
       this.setState({
@@ -53,7 +53,7 @@ class Creator extends React.Component {
           onChange={this.handleChange}
         />
         <div className={styles.buttons + (this.state.visibleButtons ? ' ' + styles.buttonsShown : '')}>
-          <Button onClick={this.handleOK}>OK</Button>
+          <Button onClick={this.handleSearchButtonClick}>OK</Button>
           <Button onClick={this.handleCancel} variant='danger'>cancel</Button>
         </div>
       </div>
