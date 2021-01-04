@@ -81,6 +81,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
   },
+  {
+    id: 'list-2',
+    title: 'Book to read',
+    description: 'Positions I need to read',
+    image: 'https://i.postimg.cc/DZfHCpqD/library-3185061-1920.jpg',
+  },
+  {
+    id: 'list-3',
+    title: 'Film to watch',
+    description: 'Movies I have to watch',
+    image: 'https://i.postimg.cc/tgxQrMZ7/cinema-4153289-1280.jpg',
+  },
 ];
 
 const columns = [
@@ -115,37 +127,31 @@ const cards = [
     id: 'card-1',
     columnId: 'column-1',
     title: 'This Is Going to Hurt',
-    index: 0,
   },
   {
     id: 'card-2',
     columnId: 'column-1',
     title: 'Interpreter of Maladies',
-    index: 1,
   },
   {
     id: 'card-3',
     columnId: 'column-2',
     title: 'Harry Potter',
-    index: 0,
   },
   {
     id: 'card-4',
     columnId: 'column-2',
     title: 'Star Wars',
-    index: 1,
   },
   {
     id: 'card-5',
     columnId: 'column-3',
     title: 'The Witcher',
-    index: 0,
   },
   {
     id: 'card-6',
     columnId: 'column-3',
     title: 'Skyrim',
-    index: 1,
   },
 ];
 
