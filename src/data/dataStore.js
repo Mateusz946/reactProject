@@ -17,8 +17,8 @@ export const settings = {
 };
 
 export const pageContents = {
-  title: 'My first React app',
-  subtitle: 'A simple to-do app, with lists, columns and cards',
+  title: 'The best app on the internet!',
+  subtitle: 'Place for your notes',
 };
 
 export const listData = {
@@ -117,8 +117,8 @@ const columns = [
   {
     id: 'column-4',
     listId: 'list-2',
-    title: 'Strange column',
-    icon: 'question',
+    title: 'New column',
+    icon: 'book',
   },
 ];
 
